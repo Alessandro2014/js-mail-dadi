@@ -20,7 +20,6 @@ var flag = false;
 
 for (var i = 0; i < registeredEmail.length; i++) {
     console.log(registeredEmail[i]);
-
     if (userMail == registeredEmail[i]) {
         flag = true;
     } 
