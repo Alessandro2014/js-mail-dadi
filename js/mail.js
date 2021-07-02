@@ -23,8 +23,7 @@ for (var i = 0; i < registeredEmail.length; i++) {
 
     if (userMail == registeredEmail[i]) {
         flag = true;
-    }    else {
-    }
+    } 
   }
 
 if (flag){
