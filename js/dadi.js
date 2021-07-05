@@ -11,10 +11,10 @@ Stabilire il vincitore, in base a chi fa il punteggio più alto e stampare il ri
 
 var winner = document.getElementById("winner")
 
-var userNumber = Math.floor(Math.random() * 5) + 2;
+var userNumber = Math.floor(Math.random() * 6) + 1;
 console.log("Il tuo numero random è: " + userNumber);
 
-var computerNumber = Math.floor(Math.random() * 5) + 2;
+var computerNumber = Math.floor(Math.random() * 6) + 1;
 console.log("Il numero random del computer è: " + computerNumber);
 
 if (userNumber > computerNumber) {

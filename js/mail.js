@@ -9,7 +9,7 @@ stampa un messaggio appropriato sull’esito del controllo.
 4 stampa messaggio esito
 */
 
-var eaccess = document.getElementById("winner");
+var access = document.getElementById("winner");
 var userMail = (prompt("Benvenuto, inserisci il tuo indirizzo email", "@gmail.com"));
 
 var registeredEmail = ["marco@libero.it", "chiara@libero.it", "davide@gmail.com",
